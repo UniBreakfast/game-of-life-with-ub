@@ -24,6 +24,8 @@ window.onkeydown = e => {
 }
 
 window.onresize = adapt
+ 
+playPause()
 
 function adapt() {
     rowCount = innerHeight / cellSize | 0
